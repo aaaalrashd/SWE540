@@ -1,3 +1,44 @@
+/* Defining the fonts using .ttf */
+@font-face {
+  font-family: 'RobotoBlack';
+  src: url('./assets/fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('./assets/fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Applying the custom fonts to your app */
+body {
+  font-family: 'RobotoBlack', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'RobotoMedium', sans-serif;
+  color: #333;
+}
+
+p {
+  font-family: 'RobotoMedium', sans-serif;
+  font-weight: normal;
+  color: #555;
+}
+
+/* Example image styling */
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
 .App {
   text-align: center;
 }
